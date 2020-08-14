@@ -1,5 +1,5 @@
 from mul import multiply
-
+from div import division
 def addition(a,b):
     return a+b
 
@@ -13,6 +13,7 @@ if __name__ == "__main__":
     print(addition(a,b))
     print(subtraction(a,b))
     print(multiply(a, b))
+    print(division(a, b))
 '''
 clone from github
 Create new branches for Multiplication and Division
